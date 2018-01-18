@@ -15,7 +15,7 @@ More information at [pivx.org](http://www.pivx.org) Visit our ANN thread at [Bit
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoW Phase)</td><td>1,000,000 PIV</td></tr>
+<tr><td>Max Coin Supply (PoW Phase)</td><td>1,000,000 LAND</td></tr>
 <tr><td>Max Coin Supply (PoS Phase)</td><td>10,000,000</td></tr>
 <tr><td>Premine</td><td>1,000,000 LAND</td></tr>
 </table>
