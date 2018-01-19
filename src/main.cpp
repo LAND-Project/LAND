@@ -2,6 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2018-2018 The LAND developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -47,7 +48,7 @@ using namespace std;
 using namespace libzerocoin;
 
 #if defined(NDEBUG)
-#error "PIVX cannot be compiled without assertions."
+#error "LAND cannot be compiled without assertions."
 #endif
 
 // 6 comes from OPCODE (1) + vch.size() (1) + BIGNUM size (4)
@@ -2171,7 +2172,7 @@ double ConvertBitsToDouble(unsigned int nBits)
 
     return dDiff;
 }
-
+//change area
 int64_t GetBlockValue(int nHeight)
 {
     int64_t nSubsidy = 0;
@@ -2214,7 +2215,7 @@ int64_t GetBlockValue(int nHeight)
     }
     return nSubsidy;
 }
-
+//change MasternodePayment
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount)
 {
     int64_t ret = 0;
